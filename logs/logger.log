@@ -1,0 +1,55 @@
+[13:27:56 INFO] test starts Gmail Test on Thu Jun 07 13:27:56 EEST 2018
+[13:27:56 INFO] test starts Gmail Test on Thu Jun 07 13:27:56 EEST 2018
+[13:28:17 INFO] test starts null
+[13:28:17 INFO] test starts null
+[13:28:18 INFO] Sending keys to [Login] value [[seleniumtest581@gmail.com, ?]]
+[13:28:22 INFO] Sending keys to [Password] value [[test2018, ?]]
+[13:28:31 INFO] Click on [Compose button]
+[13:28:37 INFO] Sending keys to [Reciever message] value [[dachkevych13@gmail.com ]]
+[13:28:42 INFO] Sending keys to [Subject message] value [[Some subject]]
+[13:28:42 INFO] Sending keys to [Text message] value [[Some text]]
+[13:28:43 INFO] Click on [Close message]
+[13:28:44 INFO] Click on [Draft message]
+[13:28:45 INFO] Click on [Last draft message]
+[13:28:46 INFO] Click on [Sent message]
+[13:28:47 INFO] test passed null during time 29502
+[13:28:47 INFO] test passed null during time 29502
+[13:28:48 INFO] Passed tests: [ResultMap map={[TestResult name=createAndSendMessage status=SUCCESS method=TestGmail.createAndSendMessage(com.epam.lab.gmail.dataobject.UserModelGmail)[pri:0, instance:com.epam.lab.gmail.tests.TestGmail@1c5577b] output=[13:28:17 INFO] test starts null<br>]=TestGmail.createAndSendMessage(com.epam.lab.gmail.dataobject.UserModelGmail)[pri:0, instance:com.epam.lab.gmail.tests.TestGmail@1c5577b]}]
+[13:28:48 INFO] Failed tests:[ResultMap map={}]
+[13:28:48 INFO] Passed tests: [ResultMap map={[TestResult name=createAndSendMessage status=SUCCESS method=TestGmail.createAndSendMessage(com.epam.lab.gmail.dataobject.UserModelGmail)[pri:0, instance:com.epam.lab.gmail.tests.TestGmail@1c5577b] output=[13:28:17 INFO] test starts null<br>]=TestGmail.createAndSendMessage(com.epam.lab.gmail.dataobject.UserModelGmail)[pri:0, instance:com.epam.lab.gmail.tests.TestGmail@1c5577b]}]
+[13:28:48 INFO] Failed tests:[ResultMap map={}]
+[13:28:48 INFO] test starts GitHub Test on Thu Jun 07 13:28:48 EEST 2018
+[13:28:48 INFO] test starts GitHub Test on Thu Jun 07 13:28:48 EEST 2018
+[13:29:01 INFO] test starts null
+[13:29:01 INFO] test starts null
+[13:29:01 INFO] Click on [SignIn]
+[13:29:02 INFO] Sending keys to [Login] value [[taras_131@gmail.com]]
+[13:29:02 INFO] Sending keys to [Password] value [[taras131, ?]]
+[13:29:04 INFO] Click on [null]
+[13:29:04 INFO] Sending keys to [null] value [[selenium java, ?]]
+[13:29:06 INFO] 3,678 repository results
+[13:29:07 INFO] Result verify tag: 8 from 10 tags contains tag - selenium
+[13:29:07 INFO] Sending keys to [null] value [[selenium java, ?]]
+[13:29:09 INFO] 3,678 repository results
+[13:29:10 INFO] Result verify tag: 8 from 10 tags contains tag - selenium
+[13:29:10 INFO] Sending keys to [null] value [[cucumber java, ?]]
+[13:29:12 INFO] 1,196 repository results
+[13:29:13 INFO] Result verify tag: 10 from 10 tags contains tag - cucumber
+[13:29:13 INFO] Sending keys to [null] value [[testng java, ?]]
+[13:29:15 INFO] 834 repository results
+[13:29:15 INFO] Result verify tag: 6 from 10 tags contains tag - testng
+[13:29:16 INFO] Sending keys to [null] value [[junit java, ?]]
+[13:29:17 INFO] 2,307 repository results
+[13:29:18 INFO] Result verify tag: 8 from 10 tags contains tag - junit
+[13:29:19 INFO] test failed null
+[13:29:19 INFO] test failed null
+[13:29:20 INFO] Passed tests: [ResultMap map={}]
+[13:29:20 INFO] Failed tests:[ResultMap map={[TestResult name=logIn status=FAILURE method=TestGitHub.logIn(com.epam.lab.github.dataobject.UserModelGithub)[pri:0, instance:com.epam.lab.github.tests.TestGitHub@4b64fe5c] output=[13:29:01 INFO] test starts null<br>]=TestGitHub.logIn(com.epam.lab.github.dataobject.UserModelGithub)[pri:0, instance:com.epam.lab.github.tests.TestGitHub@4b64fe5c]}]
+[13:29:20 INFO] Passed tests: [ResultMap map={}]
+[13:29:20 INFO] Failed tests:[ResultMap map={[TestResult name=logIn status=FAILURE method=TestGitHub.logIn(com.epam.lab.github.dataobject.UserModelGithub)[pri:0, instance:com.epam.lab.github.tests.TestGitHub@4b64fe5c] output=[13:29:01 INFO] test starts null<br>]=TestGitHub.logIn(com.epam.lab.github.dataobject.UserModelGithub)[pri:0, instance:com.epam.lab.github.tests.TestGitHub@4b64fe5c]}]
+[13:29:20 INFO] Passed tests for suite 'All Test Suite' is - 1
+[13:29:20 INFO] Failed tests for suite 'All Test Suite' is:0
+[13:29:20 INFO] Skipped tests for suite 'All Test Suite' is:0
+[13:29:20 INFO] Passed tests for suite 'All Test Suite' is - 0
+[13:29:20 INFO] Failed tests for suite 'All Test Suite' is:1
+[13:29:20 INFO] Skipped tests for suite 'All Test Suite' is:0

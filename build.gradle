@@ -1,0 +1,37 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'task3'
+version = '1.0-SNAPSHOT'
+
+description = """"""
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+test {
+    useTestNG() {
+        outputDirectory = file("test-output")
+        useDefaultListeners = false
+        testLogging.showStandardStreams = true
+        suites './testng.xml'
+    }
+}
+
+//
+
+repositories {
+        
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+dependencies {
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version:'3.12.0'
+    compile group: 'org.apache.poi', name: 'poi', version:'3.17'
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version:'3.17'
+    compile group: 'org.testng', name: 'testng', version:'6.13.1'
+    compile group: 'log4j', name: 'log4j', version:'1.2.17'
+    compile group: 'org.apache.commons', name: 'commons-csv', version:'1.1'
+    compile group: 'net.sf.opencsv', name: 'opencsv', version:'2.3'
+    testCompile group: 'org.uncommons', name: 'reportng', version:'1.1.4'
+    testCompile group: 'com.google.inject', name: 'guice', version:'4.1.0', classifier:'no_aop'
+}

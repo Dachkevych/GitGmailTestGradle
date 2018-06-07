@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.epam.lab.gmail.tests.TestGmail" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-06-07T10:28:17" hostname="Taras-PC" time="29.502">
+  <properties/>
+  <testcase name="createAndSendMessage[0](com.epam.lab.gmail.dataobject.UserModelGmail@4dbaaaa7)" classname="com.epam.lab.gmail.tests.TestGmail" time="29.502"/>
+  <system-out><![CDATA[2018-06-07 13:28:17 [TestNG-PoolService-0] INFO  com.epam.lab.listeners.CustomListener  - test starts null
+ 2018-06-07 13:28:17 [TestNG-PoolService-0] INFO  com.epam.lab.listeners.CustomListener  - test starts null
+ 2018-06-07 13:28:18 [TestNG-PoolService-0] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Login] value [[seleniumtest581@gmail.com, ?]]
+ 2018-06-07 13:28:22 [TestNG-PoolService-0] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Password] value [[test2018, ?]]
+ 2018-06-07 13:28:31 [TestNG-PoolService-0] INFO  com.epam.lab.decorator.PageElement  - Click on [Compose button]
+ 2018-06-07 13:28:37 [TestNG-PoolService-0] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Reciever message] value [[dachkevych13@gmail.com ]]
+ 2018-06-07 13:28:42 [TestNG-PoolService-0] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Subject message] value [[Some subject]]
+ 2018-06-07 13:28:42 [TestNG-PoolService-0] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Text message] value [[Some text]]
+ 2018-06-07 13:28:43 [TestNG-PoolService-0] INFO  com.epam.lab.decorator.PageElement  - Click on [Close message]
+ 2018-06-07 13:28:44 [TestNG-PoolService-0] INFO  com.epam.lab.decorator.PageElement  - Click on [Draft message]
+ 2018-06-07 13:28:45 [TestNG-PoolService-0] INFO  com.epam.lab.decorator.PageElement  - Click on [Last draft message]
+ 2018-06-07 13:28:46 [TestNG-PoolService-0] INFO  com.epam.lab.decorator.PageElement  - Click on [Sent message]
+ 2018-06-07 13:28:47 [TestNG-PoolService-0] INFO  com.epam.lab.listeners.CustomListener  - test passed null during time 29502
+ ]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 12501
+Only local connections are allowed.
+июн. 07, 2018 1:28:06 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

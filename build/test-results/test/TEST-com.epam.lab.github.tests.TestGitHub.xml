@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.epam.lab.github.tests.TestGitHub" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-06-07T10:29:01" hostname="Taras-PC" time="17.608">
+  <properties/>
+  <testcase name="logIn[0](com.epam.lab.github.dataobject.UserModelGithub@3ffd34fd)" classname="com.epam.lab.github.tests.TestGitHub" time="17.608">
+    <failure message="java.lang.AssertionError: The following asserts failed:&#10;&#9;expected [10] but found [8],&#10;&#9;expected [10] but found [8],&#10;&#9;expected [10] but found [6],&#10;&#9;expected [10] but found [8]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [10] but found [8],
+	expected [10] but found [8],
+	expected [10] but found [6],
+	expected [10] but found [8]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.epam.lab.github.tests.TestGitHub.logIn(TestGitHub.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:139)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:123)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+</failure>
+  </testcase>
+  <system-out><![CDATA[2018-06-07 13:29:01 [Test worker] INFO  com.epam.lab.listeners.CustomListener  - test starts null
+ 2018-06-07 13:29:01 [Test worker] INFO  com.epam.lab.listeners.CustomListener  - test starts null
+ 2018-06-07 13:29:01 [Test worker] INFO  com.epam.lab.decorator.PageElement  - Click on [SignIn]
+ 2018-06-07 13:29:02 [Test worker] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Login] value [[taras_131@gmail.com]]
+ 2018-06-07 13:29:02 [Test worker] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [Password] value [[taras131, ?]]
+ 2018-06-07 13:29:04 [Test worker] INFO  com.epam.lab.decorator.PageElement  - Click on [null]
+ 2018-06-07 13:29:04 [Test worker] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [null] value [[selenium java, ?]]
+ 2018-06-07 13:29:06 [Test worker] INFO  com.epam.lab.github.bo.GithubSearchPageBO  - 3,678 repository results
+ 2018-06-07 13:29:07 [Test worker] INFO  com.epam.lab.github.bo.GithubSearchPageBO  - Result verify tag: 8 from 10 tags contains tag - selenium
+ 2018-06-07 13:29:07 [Test worker] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [null] value [[selenium java, ?]]
+ 2018-06-07 13:29:09 [Test worker] INFO  com.epam.lab.github.bo.GithubSearchPageBO  - 3,678 repository results
+ 2018-06-07 13:29:10 [Test worker] INFO  com.epam.lab.github.bo.GithubSearchPageBO  - Result verify tag: 8 from 10 tags contains tag - selenium
+ 2018-06-07 13:29:10 [Test worker] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [null] value [[cucumber java, ?]]
+ 2018-06-07 13:29:12 [Test worker] INFO  com.epam.lab.github.bo.GithubSearchPageBO  - 1,196 repository results
+ 2018-06-07 13:29:13 [Test worker] INFO  com.epam.lab.github.bo.GithubSearchPageBO  - Result verify tag: 10 from 10 tags contains tag - cucumber
+ 2018-06-07 13:29:13 [Test worker] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [null] value [[testng java, ?]]
+ 2018-06-07 13:29:15 [Test worker] INFO  com.epam.lab.github.bo.GithubSearchPageBO  - 834 repository results
+ 2018-06-07 13:29:15 [Test worker] INFO  com.epam.lab.github.bo.GithubSearchPageBO  - Result verify tag: 6 from 10 tags contains tag - testng
+ 2018-06-07 13:29:16 [Test worker] INFO  com.epam.lab.decorator.PageElement  - Sending keys to [null] value [[junit java, ?]]
+ 2018-06-07 13:29:17 [Test worker] INFO  com.epam.lab.github.bo.GithubSearchPageBO  - 2,307 repository results
+ 2018-06-07 13:29:18 [Test worker] INFO  com.epam.lab.github.bo.GithubSearchPageBO  - Result verify tag: 8 from 10 tags contains tag - junit
+ 2018-06-07 13:29:19 [Test worker] INFO  com.epam.lab.listeners.CustomListener  - test failed null
+ ]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 18799
+Only local connections are allowed.
+июн. 07, 2018 1:28:56 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
